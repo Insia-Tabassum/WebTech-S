@@ -1,0 +1,57 @@
+.px-text {
+    font-size: 16px;
+}
+.cm-text {
+    font-size: 1cm;
+}
+
+.em-text {
+    font-size: 1.2em;
+}
+.rem-text {
+    font-size: 1.2rem;
+}
+.vw-text {
+    font-size: 5vw;
+}
+
+h1, h2 {
+    text-align: center;
+    color: darkblue;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+input:focus {
+    border-color: blue;
+    outline: none;
+}
+button:active {
+    transform: scale(0.95);
+    background-color: darkblue;
+    color: white;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+section {
+    margin-bottom: 30px;
+}
