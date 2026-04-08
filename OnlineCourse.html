@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Learning Portal</title>
+    <link rel="stylesheet" href="OCstyle.css">
+</head>
+<body>
+    <header>
+        <h1>My Learning Portal</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Course Enrollment Panel -->
+            <fieldset>
+                <legend>Course Enrollment Panel</legend>
+                <p>Course: <strong>JavaScript Basics</strong></p>
+                <p>Fee per seat: <span id="course-fee">1000</span> Tk</p>
+                <label for="seat-qty">Number of seats:</label>
+                <input type="number" id="seat-qty" value="1" min="1">
+                <p>Total course fee: <span id="total-fee">1000</span> Tk</p>
+                <p id="discount-msg" class="message"></p>
+                <p id="error-msg" class="error"></p>
+            </fieldset>
+
+            <!-- Enrollment Details Form -->
+            <fieldset>
+                <legend>Enrollment Details Form</legend>
+                <form id="enroll-form">
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" required>
+
+                    <label for="class-type">Class Type:</label>
+                    <select id="class-type">
+                        <option value="online">Online Class</option>
+                        <option value="on-campus">On-Campus Class</option>
+                    </select>
+
+                    <p>Final payable amount: <span id="final-amount">1000</span> Tk</p>
+
+                    <label>
+                        <input type="checkbox" id="confirm"> I confirm my enrollment details are correct
+                    </label>
+
+                    <button type="submit" id="submit-btn">Submit</button>
+                </form>
+            </fieldset>
+        </div>
+    </main>
+
+    <footer>
+        All Rights Reserved 2026
+    </footer>
+
+    <script src="OCscript.js"></script>
+</body>
+</html>
