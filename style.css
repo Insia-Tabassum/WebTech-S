@@ -69,7 +69,6 @@
     display: none;
 }
 
-/* Part D: Visibility vs Display */
 .visible-box {
     background-color: lightgreen;
     padding: 10px;

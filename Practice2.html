@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uppercase Username</title>
+</head>
+<body>
+  <h2>Username Form</h2>
+
+  <form>
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username" />
+  </form>
+
+  <script>
+    const usernameInput = document.getElementById("username");
+
+    usernameInput.addEventListener("input", function () {
+      usernameInput.value = usernameInput.value.toUpperCase();
+    });
+  </script>
+</body>
+</html>
